@@ -18,7 +18,7 @@ def carro(num):
     return "carros{num}"
 
 @app.get("/conversor_caf/{C}")
-def temp{C}:
+def temp(C):
      try:
             C=float(C)
             TF=C*(9/5) + 32
