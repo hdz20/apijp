@@ -10,14 +10,14 @@ def index():
 def index():
     return "hola a todos "
 @app.get("/carros/{num}")
-def carros(num):
+def carro(num):
     carros={
-     1"Audi"
-     2"BMW"
-     3"Mercedes Benz"
-     4"Porsche"
+     "1": "Audi",
+     "2": "BMW",
+     "3": "Mercedes Benz",
+     "4":" Porsche",
     }
-    return carros
+    return carros{num}
 
 @app.get("/conversor_caf/{C}")
 def temp{C}:
