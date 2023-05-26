@@ -8,15 +8,15 @@ def index():
     return "Hola, ¿Que marca de carro de gustaria tener algun dia?"
 
 @app.get("/naves/{num}")
-def carro(num):
+def carros(num):
     carros={
-    "1, Audi",
-    "2, BMW",
-    "3, Mercedes Benz",
-    "4, Porsche"
+    "1":"Audi",
+    "2":"BMW",
+    "3":"Mercedes Benz",
+    "4":"Porsche"
 
     }
-    return num
+    return carros
 
 @app.get("/Conversor_CaF/{C}")
 def conversorCaf(C):
