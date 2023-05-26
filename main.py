@@ -21,7 +21,7 @@ def carro(num):
 @app.get("/Conversor_Caf/{C}")
 def conversorCaf(C
      try:
-            k=float(k)
+            C=float(C)
             TF=C(9/5)
             return f"temperatura es de {TF} grados Fahrenheit"
      except:
