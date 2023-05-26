@@ -16,7 +16,7 @@ def carro(num):
     "4":"Porsche"
 
     }
-    return carros
+    return num
 
 @app.get("/Conversor_Caf/{C}")
 def conversorCaf(C):
