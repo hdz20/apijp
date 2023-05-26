@@ -6,7 +6,7 @@ app=FastAPI()
 def index():
     return"Hola a todos, ¿Que marca de carro de gustaria tener?"
 
-@app.get("/apijp/{num}")
+@app.get("/main/{num}")
 def carro(num):
     carros={
     "1":"Audi",
