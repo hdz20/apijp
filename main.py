@@ -22,7 +22,7 @@ def carro(num):
 def conversorCaf(C
      try:
             C=float(C)
-            TF=C(9/5)
+            TF=C*(9/5) + 32
             return f"temperatura es de {TF} grados Fahrenheit"
      except:
             return "Entrada Invalida"
