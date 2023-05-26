@@ -18,11 +18,11 @@ def carro(num):
     }
     return num
 
-@app.get("/Conversor_Caf/{C}")
-def conversorCaf(C):
+@app.get("/Conversor_Caf/{K}")
+def conversorCaf(K):
      try:
-            C=float(C)
-            TF=C*(9/5) + 32
-            return f"la temperatura es de {TF} grados centigrados"
+            k=float(k)
+            TF=k*(K-273) + 32
+            return k"la temperatura es de {TF} grados Fahrenheit"
      except:
             return "Entrada Invalida"
