@@ -6,9 +6,6 @@ app=FastAPI()
 def index():
     return"Hola a todos, ¿Que marca de carro de gustaria tener?"
 
-@app.get("/")
-def index():
-    return "hola a todos "
 @app.get("/apijp/{num}")
 def carro(num):
     carros={
