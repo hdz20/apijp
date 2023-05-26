@@ -19,7 +19,7 @@ def carro(num):
     return num
 
 @app.get("/Conversor_Caf/{C}")
-def conversorCaf(C
+def conversorCaf(C):
      try:
             C=float(C)
             TF=C*(9/5) + 32
