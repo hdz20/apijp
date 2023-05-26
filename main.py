@@ -4,16 +4,20 @@ app=FastAPI()
 
 @app.get("/")
 def index():
+    return"Hola a todos, ¿Que marca de carro de gustaria tener?"
+
+@app.get("/")
+def index():
     return "hola a todos "
-@app.get("/tortas/{num}")
-def dav(num):
-    tortas={
-     1"jamon"
-     2"milanesa"
-     3"pollo"
-     4"mole"
+@app.get("/carros/{num}")
+def carros(num):
+    carros={
+     1"Audi"
+     2"BMW"
+     3"Mercedes Benz"
+     4"Porsche"
     }
-    return tortas
+    return carros
 
 @app.get("/conversor_caf/{C}")
 def temp{C}:
