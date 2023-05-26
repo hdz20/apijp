@@ -24,5 +24,5 @@ def conversorCaf(C):
             C=float(C)
             TF=C*(9/5) + 32
             return f"temperatura es de {TF} grados Fahrenheit"
-     except:
+    except:
             return "Entrada Invalida"
