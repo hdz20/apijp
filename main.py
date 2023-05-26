@@ -9,7 +9,7 @@ def index():
 @app.get("/")
 def index():
     return "hola a todos "
-@app.get("/carros/{num}")
+@app.get("/apijp/{num}")
 def carro(num):
     carros={
      "1": "Audi",
